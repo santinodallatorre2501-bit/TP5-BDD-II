@@ -1,0 +1,4 @@
+# spec: vistas_reportes_seguridad
+Objetivo: Crear vistas para reportes habituales ocultando datos sensibles.
+Tablas afectadas: producto, categoria, pedido, usuario.
+Criterio de aceptación: La vista de usuarios debe exponer nombre y email, pero omitir estrictamente la columna de contraseñas.
